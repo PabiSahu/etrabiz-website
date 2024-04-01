@@ -1,0 +1,320 @@
+
+/*--------------------------------------------*/
+
+.container{
+	border: 2px solid black;
+	
+}
+.row{
+	border:0px solid red;
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+	padding-right: calc(var(--bs-gutter-x) * 0.5);
+}
+ /*body{
+	 /*background:grey;  
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+	  margin-left:50%;  */
+        
+ /*}  */
+ #header1{
+	  
+	  background:black;
+	  padding:5px  10px;
+	  font-weight: bold;
+	  font-size: 18px;
+	  	  
+ }
+ #header{	  
+	  background:black;
+	  padding:5px  10px;
+	  font-weight: bold;
+	  font-size: 10px;
+	  padding-top: 15px;
+	  padding-bottom: 10px;
+	  color:white;
+ }
+  #content{
+	  background:white;
+	  
+ }
+  
+ .col,.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12,{
+	border:1px solid black;
+	padding-left:3px  10px;
+	margin-left: 1px;
+}
+
+#case{
+	  background:white;	  
+ }
+ 
+ #about{
+	  background:black;
+      color:white;	  
+ }
+#contact{
+	  background:white;
+	  
+ }
+ #form{
+	  background:white;
+	  
+ }
+ #main_heading{
+	 background-image: url("software.png");
+	 text-align:center;
+	 width:auto;
+	 height:150%;
+	 padding-top: 50px;
+	 padding-bottom: 250px;
+	 background-size: cover;
+	 box-shadow: inset 0 0 0 1000px rgba(4,7,32,.3);
+	 
+	 
+	 
+ }
+ .button1{
+	 background:none;
+	 color:white;
+	 padding: 10px 20px;
+	 border: 2px solid gold;
+ }
+ .button2{
+	 background:gold;
+	 color:black;
+	 padding: 10px 20px;
+	 border: 0px;
+ }
+  .button3{
+	 background:none;
+	 color:black;
+	 padding: 10px 30px;
+	 border: 2px solid gold;
+ }
+ 
+.nav-link{
+	 color:white;
+}
+#menu{
+	
+	 padding: 3px 0;
+}
+#menu ul{
+	list-style: none;
+	margin:0px;
+	margin-left:80px
+}
+#menu ul li{
+	display: inline-block;
+	margin:5px;
+	
+}
+#menu ul li:hover{
+	color:#daae19;	
+}
+ #nav-id  ul li a:hover{
+	background:#daae19;
+	display:block;
+}
+.icon-container {
+    display: flex;
+    justify-content: flex-start; /* Change to flex-start to allow manual spacing */
+    margin-top: 5px; /* Adjust the spacing between icons */
+    margin-bottom: 0; /* Adjust the space below the icons */
+    margin-right:130px;
+}
+ 
+.icon {
+    display: inline-block;
+    position: relative;
+    margin-right: 10px; /* Adjust the right margin to control spacing between icons */
+}
+
+.icon:last-child {
+    margin-right: 0; /* Remove margin for the last icon to prevent extra spacing */
+}
+
+.icon img {
+    width: 15px; /* Adjust the size of your icon */
+    height: 15px; /* Adjust the size of your icon */
+    transition: filter 0.3s ease-in-out;
+}
+
+.icon:hover img {
+    filter: brightness(5%) sepia(100%) hue-rotate(30deg); /* Adjust the filter values for the desired effect */
+}
+
+.icon:hover::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px; /* Adjust the size of the circle */
+    height:30px; /* Adjust the size of the circle */
+    background-color: #daae19;
+    border-radius: 50%;
+}
+/*-------------------------------*/
+
+
+.text01 {
+	text-align: center;
+	width: auto;
+	margin-left:0%;    
+    margin-bottom:30px;
+	height:35%;
+	background-color:teal;
+
+ }
+ 
+.p1 {
+	font-size: 25px;
+	color: white;
+	width:auto;
+	margin-left:0%;
+	margin-bottom:40px;
+}	
+
+.heading1{
+	       background-color:#151717; 
+		   color:#DAAE19;
+		   margin-bottom:0PX;
+		   text-align: center;
+}
+
+.logo-container {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr); /* Adjust the number of columns as needed */
+            gap: 20px; /* Adjust the gap between logos as needed */
+            justify-content: start; /* Center the logos horizontally */
+			background-color:#151717 ;       /* #000;*/
+			margin-top:0px;
+}
+
+.logo-container img {
+            filter: brightness(0.7); /* Set the brightness of the images to 0 (black) */
+}
+/*------------------------------------------
+	
+
+        #image1, #image2, #text10, #text20 {
+            position: absolute;
+        }
+
+        #image1 {
+            top: 230%;
+            left: 160px;
+            width: 300px; /* Reduce image size as needed */
+/*        }
+
+        #image2 {
+            top: 260%;
+            left: 20px;
+            width: 350px; /* Reduce image size as needed */
+        }
+
+/*        #text10 {
+            top: 130px;
+            left: 670px; /* Adjust the position as needed */
+/*            color: teal;
+            font-size: 35px;
+           line-height: 1.0;  
+             
+        }
+
+        #text20 {
+            top: 190px;
+            left: 670px; /* Adjust the position as needed  #aadfe0"   */
+            color: teal;
+/*            font-size: 45px; 
+            line-height: 1.0;   
+        }
+
+        #myButton {
+            position: absolute;
+          /*  top: 300px; /* Adjust the top position as needed */
+           /* left: 670px; /* Adjust the left position as needed */
+/*            padding: 10px 20px;
+            background-color: yellow;
+            color: black;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+        }
+		
+/*-------------------------*/	
+     
+.xyz {
+           margin: 0;
+           padding: 0;
+}
+
+.box {
+           background: radial-gradient(#d7eaea 20%, white 20%);
+           background-size: 90px 90px;
+           background-position: 0px 20px;
+           height: auto;
+           width: 100vw;
+}
+	
+
+
+/*---------------------------------------*/
+#body2{
+	background:black;
+}
+#body1{
+	background:teal;
+}
+
+#about{
+	  background:black;
+      color:gold;
+      padding-top:20px;	 
+      	  
+ }
+ #about li {
+	 text-align:left;
+ }
+ #about p {
+	 text-align:left;
+	 padding-left:25PX;
+ }
+ #box{
+	border:1px solid white;
+	margin-top:10px;
+	margin-bottom:40px;
+	margin-left:10px;
+	padding-bottom:10px;
+	
+}
+.submit-button{
+	 background:gold;
+	 color:black;
+ }
+
+.nav-link{
+	 color:white;
+}
+ #box button:hover{
+	 background:#daae19;
+ }
+ 
+ .button1{
+	 background:none;
+	 color:white;
+	 padding: 10px 20px;
+	 border: 2px solid gold;
+	 margin-left:50px; 
+	 
+ }
+ #button1 button:hover{ 
+      background:#daae19;
+ }
+ 

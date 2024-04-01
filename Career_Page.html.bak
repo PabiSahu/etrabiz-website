@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example for HTML Marquee Tag</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="career_page_css.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+	
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	
+	
+	
+  </head>  
+  <body>   
+  <!--      <div class="container-fluid">
+          <div class="row" id="header">
+		  </div>
+	  </div>                                  -->
+		  
+   <!------------------------------------------------------------------------------------>  
+     <div class="container-fluid">
+		 <div class="row"  style="background-color:AliceBlue;" >
+	    
+	           <div class="col-md-5 offset-md-1"  >
+				   <h1 style=" margin-top:40px;margin-left:0px;" >
+                      <strong class="black-text l" style="font-size:32px;" >Join Us Today!</strong>
+                   </h1>			   	  
+                   <p style="font-size:22px; margin-top:10px;margin-left:0px;">
+                      
+                          We, at eTranbiz are fortunate enough to do great work for a variety of 
+				          great clients, predominantly large enterprises. Each one of us loves what 
+				          we do, whether we’re working from home, or sitting in our office space in 
+				          Bangalore. New members are always welcome, particularly individuals that 
+				          are not just filling a role but are interested in helping us grow and growing 
+				          with us. If that’s you, we can’t wait to hear from you.
+                      
+                   </p>
+				   <button type="button" class="btn btn-primary"  style="width:auto;height:auto; background-color:yellow; color:black; ">
+				      CURRENT OPENINGS
+				   </button>
+			   </div>		   
+			   <div class="col-md-5 offset-md-1"  >		    
+			         <img src = "emp_image.png" class="img-fluid" style="width:95%; height:450px; margin-top:10px;" </img>   <!--width="600px" height="500px" -->
+               </div>
+		</div>
+		  <!-----------------------employee storyies------------------------------------->
+
+        <div class="row" >
+              <div id="employeeCarousel" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner col-md-12" style="padding-bottom:30px;">
+				      <!-----heading--------->
+					  <div class="col-md-12" id="emp_story" >
+					    <h1 >
+						    <strong>
+						     Employee Stories
+						    </strong> 
+						</h1>
+						</div>
+                      <!-- First Carousel Item -->
+                      <div class="carousel-item active">
+                          <div class="row">
+                              <!-- First Employee Card -->
+                              <div class="col-md-5 offset-md-1">
+                                  <div class="employee-card">
+                                      <div class="image_slide">
+                                          <img src="sumera_image.png" alt="SUMERA HUSSAIN">
+                                      </div>
+                                      <div class="info" style="padding-bottom:27px;">
+                                          <h2><strong>SUMERA HUSSAIN</strong></h2>
+                                          <h5><strong>Human Resources Manager</strong></h5>
+                                          <p>"Working with eTranBiz is more of an experience as I complete each task rather than just a
+                                              series of things that need to be done. New challenges that help me hone my skills and use my
+                                              creativity keep me motivated to do my very best."</p>
+                                      </div>
+                                  </div>
+                              </div>
+        
+                              <!-- Second Employee Card -->
+                              <div class="col-md-5">
+                                  <div class="employee-card">
+                                      <div class="image_slide">
+                                          <img src="Afroz_sir_image.png" alt="Afroz Hussain M">
+                                      </div>
+                                      <div class="info" >
+                                          <h2><strong>Afroz Hussain M</strong></h2>
+                                          <h5><strong>Business Development Manager</strong></h5>
+                                          <p>"I joined eTranBiz two years ago. One thing that impresses me the most is the attitude of
+                                              all the employees. I always get a sense of company loyalty from most members of the team.
+                                              The great thing about working in eTranBiz is that there is always something challenging
+                                              happening and every day is filled with new learning opportunities. "</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+        
+                      <!-- Second Carousel Item -->
+                      <div class="carousel-item">
+                          <div class="row">
+                              <!-- Third Employee Card -->
+                              <div class="col-md-5 offset-md-1" >
+                                  <div class="employee-card" >
+                                      <!-- Content for the third employee -->
+	      							 <div class="image_slide">
+                                           <img src="Ashwini_AA_image.png" alt="ASHWINI A A">
+                                     </div>
+                                     <div class="info" style="padding-bottom:27px;">
+                                           <h2><strong>ASHWINI A A</strong></h2>
+                                           <h5><strong>Lead - Enterprise Applications</strong></h5>
+                                           <p>"eTranBiz has given me a great opportunity and this has helped me build my career with strong leadership skills.  I have a great reporting manager, and my co-workers are friendly and helpful. It has been an amazing learning experience on a daily basis. "</p>
+                                     </div>
+                                  </div>
+                              </div>
+        
+                              <!-- Fourth Employee Card -->
+                              <div class="col-md-5">
+                                  <div class="employee-card">
+                                      <!-- Content for the fourth employee -->
+	      							<div class="image_slide">
+                                                   <img src="manali_image.png" alt="MANALI KALARIYA">
+                                      </div>
+                                      <div class="info">
+                                          <h2><strong>MANALI KALARIYA</strong></h2>
+                                          <h5><strong>Associate Consultant</strong></h5>
+                                          <p>"I joined eTranBiz as a fresher. The attitude of the team is what impresses me the most.
+                                              They are welcoming, supportive, and nurturing. Under the guidance and direction of Mastan
+                                              Sir and Ashwini Ma'am, I have been entrusted with growing responsibilities, allowing me to
+                                              take on and have ownership of assignments and projects. "</p>
+                                      </div>
+	      							
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+        
+                  <!-- Add navigation buttons if needed -->
+                  <button class="carousel-control-prev" type="button" data-bs-target="#employeeCarousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#employeeCarousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+        </div>
+        
+          <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+          <script>
+              document.addEventListener('DOMContentLoaded', function () {
+                  var myCarousel = new bootstrap.Carousel(document.getElementById('employeeCarousel'), {
+                      interval: 5000, // Set the interval for automatic sliding
+                      pause: 'hover' // Pause on mouseover
+                  });
+              });
+          </script>	
+
+         <!----------------------------------------------->
+		<div class="row" > 
+		  <div class="col-md-12 " style="background-color: AliceBlue;">
+		 <!--   <div class="job-container"> -->
+               <!-- First Job Posting -->
+			   <div class="col-md-12" id="emp_story" >
+			       <h1 >
+			   	     <strong>
+			   	      Current Openings
+			   	     </strong> 
+			   	   </h1>
+			   	</div>
+			   
+			   
+			   
+			   <div class="row" style="margin-left:130px">
+               <div class="job-card col-md-5 offset-md-2">
+                   <p style="font-size: 20px; font-weight: bold; color: teal;">Oracle Apps Technical Consultant</p>
+                   <p style="font-size: 18px; font-weight: bold; color: teal;">Onsite, Bangalore</p>
+                   <p style="font-size: 16px;">We are looking for two Oracle Apps Technical Consultants with 3 years of experience to work with one of our teams handling a project for a Government Project.</p>
+                   <button class="button" style="font-size: 15px;">View</button>
+               </div>
+		    
+                <!-- Second Job Posting -->
+                <div class="job-card col-md-5">
+                    <p style="font-size: 20px; font-weight: bold; color: teal;">Oracle Apps Technical Consultant</p>
+                    <p style="font-size: 18px; font-weight: bold; color: teal;">Onsite, Hyderabad</p>
+                    <p style="font-size: 16px;">We are looking for two Oracle Apps Technical Consultants having 3 years of experience and functional knowledge in the Financial modules for our Hyderabad team working for a banking client.</p>
+                    <button class="button" style="font-size: 15px;">View</button>
+                </div>
+			   </div>
+		       
+                <!-- Third Job Posting -->
+				<div class="row" style="margin-left:130px">
+                <div class="job-card col-md-5 offset-md-2">
+                    <p style="font-size: 20px; font-weight: bold; color: teal;">Oracle Fusion Consultant</p>
+                    <p style="font-size: 18px; font-weight: bold; color: teal;">Onsite, Bangalore</p>
+                    <p style="font-size: 16px;">We are looking for two Oracle Fusion Technical Consultants with 3 years of experience to work with one of our teams handling a project for a Telecom giant.</p>
+                    <button class="button" style="font-size: 15px;">View</button>
+                </div>
+		    
+                <!-- Fourth Job Posting -->
+                <div class="job-card col-md-5">
+                    <p style="font-size: 20px; font-weight: bold; color: teal;">Oracle Apps DBA</p>
+                    <p style="font-size: 18px; font-weight: bold; color: teal;">Onsite, Hyderabad</p>
+                    <p style="font-size: 16px;">We are looking for an Oracle Apps DBA with 4-6 years of experience to join our Hyderabad team working for a banking client.</p>
+                    <button class="button" style="font-size: 15px;">View</button>
+                </div>
+		        </div>
+               
+            <!-- </div> -->
+		  </div>
+        </div>  			
+        <!-- Bootstrap JS and Popper.js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+		    
+		<!------------images-----------------------> 
+
+		<div id="container1">
+		     <div class="col-md-12" id="emp_story" style="background-color:AliceBlue" >
+			       <h1 >
+			   	     <strong>
+			   	      eTranBiz Wall
+			   	     </strong> 
+			   	   </h1>
+			   	</div>	 						
+             <div class="row1" id="image-slider12" style="padding-bottom:20px;">
+                  		 
+	          
+                 <img class="slider-image12" src="MicrosoftTeams-image (48).png" alt="Image 1">
+                 <img class="slider-image12" src="MicrosoftTeams-image (49).png" alt="Image 2">
+                 <img class="slider-image12" src="MicrosoftTeams-image (51).png" alt="Image 3">
+                 <img class="slider-image12" src="MicrosoftTeams-image (52).png" alt="Image 4">
+                 <img class="slider-image12" src="MicrosoftTeams-image (53).png" alt="Image 5">
+                 <img class="slider-image12" src="MicrosoftTeams-image (54).png" alt="Image 6">
+	         
+             </div>
+             <div class="slider-navigation12">
+                 <button onclick="prevSlide()">&#8249;</button>
+                 <button onclick="nextSlide()">&#8250;</button>
+             </div>
+        </div>
+
+        <script>
+            const slider = document.getElementById('image-slider12');
+            let count = 0;
+        
+            function nextSlide() {
+                count = (count + 1) % 6; // Adjust the modulus value based on the number of unique images
+                updateSlider();
+            }
+        
+            function prevSlide() {
+                count = (count - 1 + 6) % 6; // Ensure count is non-negative
+                updateSlider();
+            }
+        
+            function updateSlider() {
+                const translateValue = -count * (100 / 3);
+                slider.style.transform = `translateX(${translateValue}%)`;
+            }
+        
+            // Change slide every 3 seconds (adjust the interval as needed)
+            setInterval(nextSlide, 3000);
+        </script>
+		    
+		    
+		    
+		    
+		    
+		     
+		    
+</body>        
+</html>        
+		       
+		       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

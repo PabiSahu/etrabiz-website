@@ -1,0 +1,572 @@
+.container-fluid{
+	background:black;
+	
+	
+}
+
+.container-fluid bottom-heading{
+	border: 0px solid black;
+	
+}
+.row{
+	border:0px solid red;
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+	padding-right: calc(var(--bs-gutter-x) * 0.5);
+	
+	
+}
+ body{
+	 background:grey;
+ }
+ #header1{
+	  
+	  background:black;
+	  padding:5px  10px;	  
+	  margin-right:0px;
+	  
+	  font-weight: bold;
+	  font-size: 18px;
+	  	  
+ }
+  #header1 ul{
+	 padding-left:80px; 
+	  
+	  
+	  
+	  	  
+ }
+ #header{	  
+	  background:black;
+	  padding:5px  10px;
+	  font-weight: bold;
+	  font-size: 10px;
+	  padding-top: 15px;
+	  padding-bottom: 10px;
+	  color:white;
+	  
+ }
+  #content{
+	  background:white;
+	  
+ }
+   #content button:hover{
+	  background:#daae19;
+	  
+ }
+  #paragraph{
+	  background:Aliceblue; 
+	  padding-left:60px;
+	  
+      	  
+ }
+ #paragraph div{
+	  background:white;
+	  box-shadow: 10px 10px 5px 12px lightblue;
+      text-align:center;
+	  margin-top: 30px;
+      margin-right: 95px;
+	  padding-right:40px;
+	  padding-top:10px;
+	  
+	  
+        
+ }
+  #paragraph1{
+	  background:Aliceblue; 
+      padding-left:60px;
+      padding-bottom:60px;	  
+ }
+ #paragraph1 div{
+	  background:white;
+	  box-shadow: 10px 10px 5px 12px lightblue;
+      text-align:center;
+	  margin-top: 95px;
+      margin-right: 95px;
+	  padding-top:10px;
+      	  
+	  
+      	  
+ }
+ .col,.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12,{
+	border:1px solid black;
+	padding-left:3px  10px;
+	margin-left: 1px;
+}
+
+#case{
+	  background:white;	
+	  padding-top:20px;
+      	  
+ }
+ 
+ #about{
+	  background:black;
+      color:gold;
+      padding-top:20px;	 
+      	  
+ }
+ #about li {
+	 text-align:left;
+ }
+ #about p {
+	 text-align:left;
+	 padding-left:25PX;
+ }
+ #box{
+	border:1px solid white;
+	margin-top:10px;
+	margin-bottom:40px;
+	margin-left:10px;
+	padding-bottom:10px;
+	
+}
+ 
+#contact{
+	  background:white;
+	  text-align:center;
+	  
+	  
+ }
+ #form{
+	  background:white;
+	  
+ }
+ #main_heading{
+	 background-image: url("software.png");
+	 text-align:center;
+	 width:auto;
+	 height:150%;
+	 padding-top: 200px;
+	 padding-bottom: 300px;
+	 background-size: cover;
+	 box-shadow: inset 0 0 0 1000px rgba(4,7,32,.3);
+	 
+	 
+	 
+ }
+ .button4{
+	 background:none;
+	 color:white;
+	 padding: 10px 20px;
+	 border: 2px solid gold;
+	 margin-left:50px; 
+	 
+ }
+ #button4 button:hover{ 
+      background:#daae19;
+ }
+ .button2{
+	 background:gold;
+	 color:black;
+	 padding: 10px 20px;
+	 border: 0px;
+ }
+ #main_heading button:hover{
+	 background:#daae19;
+ }
+  .button3{
+	 background:none;
+	 color:black;
+	 padding: 10px 30px;
+	 border: 2px solid gold;
+ }
+ .submit-button{
+	 background:gold;
+	 color:black;
+ }
+ #box button:hover{
+	 background:#daae19;
+ }
+ 
+.nav-link{
+	 color:white;	 
+}
+#nav-id  ul li a:hover{
+	background:#daae19;
+	display:block;
+}
+
+
+#menu{
+	
+	 padding: 3px 0;
+}
+#menu ul{
+	list-style: none;
+	margin:0px;
+	margin-right:250px;
+	margin-right:250px;
+}
+#menu ul li{
+	display: inline-block;
+	margin:5px;	
+}
+#menu ul li:hover{
+	color:#daae19;	
+}
+ 
+.icon-container {
+    display: flex;
+    justify-content: flex-start; /* Change to flex-start to allow manual spacing */
+    margin-top: 5px; /* Adjust the spacing between icons */
+    margin-bottom: 0; /* Adjust the space below the icons */
+    margin-right:130px;
+}
+ 
+.icon {
+    display: inline-block;
+    position: relative;
+    margin-right: 10px; /* Adjust the right margin to control spacing between icons */
+}
+
+.icon:last-child {
+    margin-right: 0; /* Remove margin for the last icon to prevent extra spacing */
+}
+
+.icon img {
+    width: 15px; /* Adjust the size of your icon */
+    height: 15px; /* Adjust the size of your icon */
+    transition: filter 0.3s ease-in-out;
+}
+
+.icon:hover img {
+    filter: brightness(5%) sepia(100%) hue-rotate(30deg); /* Adjust the filter values for the desired effect */
+}
+
+.icon:hover::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px; /* Adjust the size of the circle */
+    height: 30px; /* Adjust the size of the circle */
+    background-color: #daae19;
+    border-radius: 50%;
+}
+
+/*.text1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.countdown-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+	background-color: Aliceblue
+}
+.timer {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: teal;
+}
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.vertical-line {
+    width: 3px;
+    height: 100px;
+    background-color:#daae19;
+    font-weight: non;
+    margin-left: 20px; /* Adjust the margin as needed */
+}*/
+  .countdown-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .col-md-3 {
+        text-align: center;
+		
+    }
+
+    .timer {
+        font-size: 3em;
+        font-weight: bold;
+        color: teal; /* Adjust text color as needed */
+    }
+
+    .heading {
+        font-size: 1.5em;
+        color: #000; /* Adjust text color as needed */
+    }
+
+    .vertical-line {
+    width: 3px;
+    height: 100px;
+    background-color:#daae19;
+    font-weight: non;
+    margin-left: 20px;
+    }
+
+    .py-5 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .display-3 {
+        font-size: 2.5em;
+        font-weight: bold;
+        color: #000; /* Adjust text color as needed */
+    }
+
+ #form input
+ {
+	    width: 40%;
+        padding: 10px;
+        margin-bottom: 10px;
+		margin-right: 12px;
+        box-sizing: border-box;
+ }
+    #form textarea {
+        width: 83%;
+        padding: 10px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+
+    #form button {
+		width: 83%;
+        padding: 5px;
+		padding-bottom: 5px;
+		background:gold;
+		margin-bottom: 10px;
+    }
+	#form button:hover{
+		background:#daae19;
+	}
+#countdown{
+background:Aliceblue;
+}	
+#countdown1 div{
+padding-left:0px;
+padding-right:0px;
+}
+/*-------------------------------------*/
+.carousel-item {
+            text-align: center;
+            overflow: hidden;
+            transition: transform 0.5s; /* Reduced transition time for a quicker effect */
+        }
+
+        .carousel-item img {
+            padding-top: 10px;
+            width: 150px;
+            height: 500px;
+        }
+
+        .carousel-item:hover {
+            transform: scale(1.2);
+        }
+
+        .image-text {
+            position: absolute;
+            padding-bottom:500px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: top; /* Center align text */
+            color: white;
+        }
+
+        .button1 {
+            background: none;
+            color: white;
+            padding: 10px 20px;
+            border: 2px solid #daae19;
+            cursor: pointer;
+            font-size: 15px;
+        }
+		#container button:hover{
+			background:#daae19;
+		}
+
+        .image-text p {
+            line-height: 1.0;
+            word-wrap: break-word;
+        }
+		#container
+		{
+		background:white;
+		}
+/*----------------------card animation---------------*/
+
+.card {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.card-inner {
+    width: 200%;
+    height: 100%;
+    transition: transform 0.5s;
+    display: flex;
+}
+
+.card:hover .card-inner {
+    transform: translateX(-50%);
+}
+
+.front, .back {
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+.front h1, .back h1 {
+    color: teal;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.front p, .back p {
+    text-align: center;
+    padding: 10px;
+}
+.front {
+	background:#daae19;
+}
+
+.front button, .back img {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.back {
+    background: #f0f0f0;
+    transform: translateX(100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.back-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.card:hover .back {
+    transform: translateX(0);
+    opacity: 1;
+}
+#card{
+	background:Aliceblue;
+	}
+#card1{
+	background:Aliceblue;
+	}
+	
+/*---------------------------*/	
+	
+body{
+	font-family: 'Poppins';
+	
+}
+
+body header {
+	height: 100vh;
+	width: 100vw;
+	background-image: url("PM Budgeting.jpg");
+	background-size:cover;
+}
+
+.navbar {
+	position: absolute;
+	padding:50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.navbar a {
+	color: white;
+}
+
+.navbar .logo{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.navbar .nav-links ul{
+	display: flex;
+}
+
+.navbar .nav-links ul li{
+	margin:0 23px;
+}
+
+.navbar .nav-links ul li.active a{
+	color: #ed3c57;
+	font-weight:600;
+}
+
+.navbar .menu-hamburger{
+	display:none;
+	position:absolute;
+	top: 50px;
+	right: 50px;
+	width: 35px;
+} 
+
+@media screen and  (max-width:820px){
+	.navbar {
+		padding:0;
+	}
+	
+	.navbar .logo{
+	     position:absolute;
+		 top:40px;
+		 left:30px;
+    }
+	
+	.navbar .menu-hamburger {
+		display:block;
+	}
+	
+	.nav-links {
+		top:0;
+		left:0;
+		position: absolute;
+		background-color: rgba(255, 255, 255, 0.20);
+		backdrop-filter: blur(2px);
+		width: 100%;
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: -100%;
+		transition: all 0.5s ease;
+		
+	}
+	
+	.nav-links.mobile-menu{
+	    margin-left:0;
+    }
+	
+	.nav-links ul {
+		display:flex;
+		flex-direction: column;
+	}
+	
+	.navbar .nav-links ul li{
+	    margin:20px 0;
+		font-size: 1.2em;
+	}
+}

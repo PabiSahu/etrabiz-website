@@ -1,0 +1,504 @@
+.container-fluid{
+	background:black;
+	
+	
+}
+
+.container-fluid bottom-heading{
+	border: 0px solid black;
+	
+}
+.row{
+	border:0px solid red;
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+	padding-right: calc(var(--bs-gutter-x) * 0.5);
+	
+	
+}
+ body{
+	 background:grey;
+ }
+ #header1{
+	  
+	  background-color:black;
+	  padding:5px  10px;
+	  margin-right:150px;
+	  margin-right:0px;
+	  font-weight: bold;
+	  font-size: 18px;
+	  	  
+ }
+  #header1 ul{
+	 padding-left:80px; 
+	  
+	  
+	  
+	  	  
+ }
+ #header{	  
+	  background:black;
+	  padding:5px  10px;
+	  font-weight: bold;
+	  font-size: 10px;
+	  padding-top: 15px;
+	  padding-bottom: 10px;
+	  color:white;
+	  
+ }
+  #content{
+	  background:white;
+	  
+ }
+  #paragraph{
+	  background:white; 
+      	  
+ }
+ #paragraph div{
+	  background:white;
+	  box-shadow: 10px 10px 5px 12px lightblue;
+      text-align:center;
+	  margin-top: 30px;
+      margin-right: 95px;
+	  padding-right:40px;
+	  padding-top:10px;
+	  
+	  
+        
+ }
+  #paragraph1{
+	  background:white;        
+ }
+ #paragraph1 div{
+	  background:white;
+	  box-shadow: 10px 10px 5px 12px lightblue;
+      text-align:center;
+	  margin-top: 30px;
+      margin-right: 95px;
+	  padding-top:10px;
+      	  
+	  
+      	  
+ }
+ .col,.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12,{
+	border:1px solid black;
+	padding-left:3px  10px;
+	margin-left: 1px;
+}
+
+#case{
+	  background:white;	
+	  padding-top:20px;
+      	  
+ }
+ 
+ #about{
+	  background:black;
+      color:gold;
+      padding-top:20px;	 
+      	  
+ }
+ #about li {
+	 text-align:left;
+ }
+ #about p {
+	 text-align:left;
+	 padding-left:25PX;
+ }
+ #box{
+	border:1px solid Aliceblue;
+	margin-top:10px;
+	margin-bottom:40px;
+	margin-left:10px;
+	padding-bottom:10px;
+	
+}
+ 
+#contact{
+	  background:white;
+	  text-align:center;
+	  
+	  
+ }
+ #form{
+	  background:Aliceblue;
+	  padding-left:40px;
+	  padding-bottom:20px;
+ }
+ 
+ #form input
+ {
+	    width: 40%;
+        padding: 10px;
+        margin-bottom: 10px;
+		margin-right: 12px;
+        box-sizing: border-box;
+		border: 2px solid teal;
+ }
+    #form textarea {
+        width: 83%;
+        padding: 10px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+		border: 2px solid teal;
+    }
+
+    #form button {
+		width: 83%;
+        padding: 5px;
+		padding-bottom: 5px;
+		background:gold;
+		margin-bottom: 10px;
+    }
+	  
+#text-1{
+	margin-left:0px;
+	padding-left:0px;
+	
+}
+	
+	  
+	  
+	  
+ }
+ #main_heading{
+	 background-image: url("software.png");
+	 text-align:center;
+	 width:100;
+	 height:150%;
+	 padding-top: 200px;
+	 padding-bottom: 350px;
+	 background-size: cover;
+	 box-shadow: inset 0 0 0 1000px rgba(4,7,32,.3);
+	 
+	 
+	 
+ }
+ .button4{
+	 background:none;
+	 color:white;
+	 padding: 10px 20px;
+	 border: 2px solid gold;
+	 margin-left:50px;     	 	 
+ }
+ #button4 button:hover{ 
+      background:#daae19;
+ }
+ 
+ .submit-button{
+	 background:gold;
+	 color:black;
+ }
+ 
+ 
+ 
+.nav-link{
+	 color:white;
+}
+
+ #menu{
+	
+	 padding: 3px 0;
+}
+#menu ul{
+	list-style: none;
+	margin:0px;
+	margin-right:250px;
+	margin-right:250px;
+}
+#menu ul li{
+	display: inline-block;
+	margin:5px;
+}
+#menu ul li:hover{
+	color:#daae19;	
+}
+ 
+.icon-container {
+    display: flex;
+    justify-content: flex-start; /* Change to flex-start to allow manual spacing */
+    margin-top: 5px; /* Adjust the spacing between icons */
+    margin-bottom: 0; /* Adjust the space below the icons */
+    margin-right:130px;
+}
+ 
+.icon {
+    display: inline-block;
+    position: relative;
+    margin-right: 10px; /* Adjust the right margin to control spacing between icons */
+}
+
+.icon:last-child {
+    margin-right: 0; /* Remove margin for the last icon to prevent extra spacing */
+}
+
+.icon img {
+    width: 15px; /* Adjust the size of your icon */
+    height: 15px; /* Adjust the size of your icon */
+    transition: filter 0.3s ease-in-out;
+}
+
+.icon:hover img {
+    filter: brightness(5%) sepia(100%) hue-rotate(30deg); /* Adjust the filter values for the desired effect */
+}
+
+.icon:hover::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px; /* Adjust the size of the circle */
+    height: 30px; /* Adjust the size of the circle */
+    background-color: #daae19;
+    border-radius: 50%;
+}
+
+#header1{
+	  
+	  background:black;
+	  padding:5px  10px;
+	  margin-right:150px;
+	  margin-right:0px;
+	  
+	  font-weight: bold;
+	  font-size: 18px;
+	  	  
+ }
+  #header1 ul{
+	 padding-left:80px; 
+	  
+	  
+	  
+	  	  
+ }
+ #header{	  
+	  background:black;
+	  padding:5px  10px;
+	  font-weight: bold;
+	  font-size: 10px;
+	  padding-top: 15px;
+	  padding-bottom: 10px;
+	  color:white;
+ }
+ #nav-id  ul li a:hover{
+	background:#daae19;
+	display:block;
+}
+  
+ 
+
+/*.text1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.countdown-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+	background-color: Aliceblue
+}
+.timer {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: teal;
+}
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.vertical-line {
+    width: 3px;
+    height: 100px;
+    background-color:#daae19;
+    font-weight: non;
+    margin-left: 20px; /* Adjust the margin as needed */
+}*/
+  .countdown-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .col-md-3 {
+        text-align: center;
+		
+    }
+
+    .timer {
+        font-size: 3em;
+        font-weight: bold;
+        color: teal; /* Adjust text color as needed */
+    }
+
+    .heading {
+        font-size: 1.5em;
+        color: #000; /* Adjust text color as needed */
+    }
+
+    .vertical-line {
+         width: 3px;
+    height: 100px;
+    background-color:#daae19;
+    font-weight: non;
+    margin-left: 20px;
+    }
+
+    .py-5 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .display-3 {
+        font-size: 2.5em;
+        font-weight: bold;
+        color: #000; /* Adjust text color as needed */
+    }
+
+ 
+#countdown{
+background:Aliceblue;
+}	
+#countdown1 div{
+padding-left:0px;
+padding-right:0px;
+}
+/*-------------------------------------*/
+
+        .button1 {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        .image-text p {
+            line-height: 1.0;
+            word-wrap: break-word;
+        }
+		#container
+		{
+		background:white;
+		}
+/*----------------------container---------------*/
+
+.container-fluid1, .row{
+	background-color: aliceblue;
+	
+}
+	
+#left-column {
+            flex: 1; /* Take up two-thirds of the available space */
+            padding: 30px;
+            display: flex;
+            text-align: center;
+			background-color:#07A6B0;
+            background-image: url("BG-Join-Clients.png");
+            background-size: 100% 100%; /* Adjust the values as needed */
+            height: auto; /* Set the height as needed */
+            width: auto;
+	         padding:120px;
+	         margin-top: 100px;
+}
+	
+/* -----------------------container-1------------------------------------------- */
+
+
+.card {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 20px;
+	margin-top:50px;
+}
+
+.card-inner {
+    width: 200%;
+    height: 100%;
+    transition: transform 0.5s;
+    display: flex;
+}
+
+.card:hover .card-inner {
+    transform: translateX(-50%);
+}
+
+.front, .back {
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+ify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+.front img {
+    width: 80%;
+    height: auto%;
+n-bottom: 10px; 
+    object-fit: cover;
+}
+
+.front-text {
+    margin-top: auto;
+    color: teal;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.8); /* Added background to improve text visibility */
+    padding: 10px; /* Added padding for better text readability */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.back {
+    background: #f0f0f0;
+    transform: translateX(100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.back-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.back button {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.card:hover .back {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+#feel{
+            flex: 1; /* Take up two-thirds of the available space */
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: high;
+            align-items: center;
+            text-align: center;
+			margin-top: 15px;
+			margin-bottom:20px;
+}
+ #box button:hover{
+	 background:#daae19;
+ }
+#form button:hover{
+	background:#daae19;
+}

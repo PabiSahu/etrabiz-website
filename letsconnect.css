@@ -1,0 +1,376 @@
+.container-fluid{
+	background:black;
+	
+	
+}
+
+.container-fluid bottom-heading{
+	border: 0px solid black;
+	
+}
+.row{
+	border:0px solid red;
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+	padding-right: calc(var(--bs-gutter-x) * 0.5);
+	
+	
+}
+ body{
+	 background:grey;
+ }
+ #header1{
+	  
+	  background-color:black;
+	  padding:5px  10px;
+	  margin-right:150px;
+	  margin-right:0px;
+	  font-weight: bold;
+	  font-size: 18px;
+	  	  
+ }
+  #header1 ul{
+	 padding-left:80px; 
+	  
+	  
+	  
+	  	  
+ }
+ #header{	  
+	  background:black;
+	  padding:5px  10px;
+	  font-weight: bold;
+	  font-size: 10px;
+	  padding-top: 15px;
+	  padding-bottom: 10px;
+	  color:white;
+	  
+ }
+  #content{
+	  background:white;
+	  
+ }
+  #paragraph{
+	  background:white; 
+      	  
+ }
+ #paragraph div{
+	  background:white;
+	  box-shadow: 10px 10px 5px 12px lightblue;
+      text-align:center;
+	  margin-top: 30px;
+      margin-right: 95px;
+	  padding-right:40px;
+	  padding-top:10px;
+	  
+	  
+        
+ }
+  #paragraph1{
+	  background:white;        
+ }
+ #paragraph1 div{
+	  background:white;
+	  box-shadow: 10px 10px 5px 12px lightblue;
+      text-align:center;
+	  margin-top: 30px;
+      margin-right: 95px;
+	  padding-top:10px;
+      	  
+	  
+      	  
+ }
+ .col,.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12,{
+	border:1px solid black;
+	padding-left:3px  10px;
+	margin-left: 1px;
+}
+
+#case{
+	  background:white;	
+	  padding-top:20px;
+      	  
+ }
+ 
+ #about{
+	  background:black;
+      color:gold;
+      padding-top:20px;	 
+      	  
+ }
+ #about li {
+	 text-align:left;
+ }
+ #list li {
+	 padding-left:25PX;
+ }
+ #about1 li {
+	 padding-left:25PX;
+ }
+ #about p {
+	 text-align:left;
+	 padding-left:25PX;
+ }
+ #box{
+	border:1px solid white;
+	margin-top:10px;
+	margin-bottom:40px;
+	margin-right:40px;
+	padding-bottom:10px;
+	
+}
+.submit-button{
+	 background:gold;
+	 color:black;
+ }
+
+.nav-link{
+	 color:white;
+}
+ #box button:hover{
+	 background:#daae19;
+ }
+ 
+#contact{
+	  background:white;
+	  text-align:center;
+	  
+	  
+ }
+ #form{
+	  background:Aliceblue;
+	  padding-left:40px;
+	  padding-bottom:20px;
+	  padding-top:0px;
+ }
+ 
+ #form input
+ {
+	    width: 40%;
+        padding: 10px;
+        margin-bottom: 10px;
+		margin-right: 12px;
+        box-sizing: border-box;
+		border: 2px solid teal;
+ }
+    #form textarea {
+        width: 83%;
+        padding: 10px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+		border: 2px solid teal;
+    }
+
+    #form button {
+		width: 83%;
+        padding: 5px;
+		padding-bottom: 5px;
+		background:gold;
+		margin-bottom: 10px;
+    }
+	  
+#text-1{
+	margin-left:0px;
+	padding-left:0px;
+	
+}
+#form button:hover {
+	background:#daae19;
+}
+	
+	  
+	  
+	  
+ }
+ #main_heading{
+	 background-image: url("software.png");
+	 text-align:center;
+	 width:100;
+	 height:150%;
+	 padding-top: 200px;
+	 padding-bottom: 350px;
+	 background-size: cover;
+	 box-shadow: inset 0 0 0 1000px rgba(4,7,32,.3);
+	 
+	 
+	 
+ }
+ .button4{
+	 background:none;
+	 color:white;
+	 padding: 10px 20px;
+	 border: 2px solid gold;
+	 margin-left:50px;    	 	 
+ }
+  #button4 button:hover{ 
+      background:#daae19;
+ }
+ 
+ .submit-button{
+	 background:gold;
+	 color:black;
+ }
+ 
+.nav-link{
+	 color:white;
+}
+
+#menu{
+	
+	 padding: 3px 0;
+}
+#menu ul{
+	list-style: none;
+	margin:0px;
+	margin-right:250px;
+	margin-right:250px;
+}
+#menu ul li{
+	display: inline-block;
+	margin:5px;
+}
+#menu ul li:hover{
+	color:#daae19;	
+}
+ 
+.icon-container {
+    display: flex;
+    justify-content: flex-start; /* Change to flex-start to allow manual spacing */
+    margin-top: 5px; /* Adjust the spacing between icons */
+    margin-bottom: 0; /* Adjust the space below the icons */
+    margin-right:130px;
+}
+ 
+.icon {
+    display: inline-block;
+    position: relative;
+    margin-right: 10px; /* Adjust the right margin to control spacing between icons */
+}
+
+.icon:last-child {
+    margin-right: 0; /* Remove margin for the last icon to prevent extra spacing */
+}
+
+.icon img {
+    width: 15px; /* Adjust the size of your icon */
+    height: 15px; /* Adjust the size of your icon */
+    transition: filter 0.3s ease-in-out;
+}
+
+.icon:hover img {
+    filter: brightness(5%) sepia(100%) hue-rotate(30deg); /* Adjust the filter values for the desired effect */
+}
+
+.icon:hover::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px; /* Adjust the size of the circle */
+    height: 30px; /* Adjust the size of the circle */
+    background-color: #daae19;
+    border-radius: 50%;
+}
+/*---------------------------*/
+ #header1{
+	  
+	  background:black;
+	  padding:5px  10px;
+	  margin-right:150px;
+	  margin-right:0px;
+	  
+	  font-weight: bold;
+	  font-size: 18px;
+	  	  
+ }
+  #header1 ul{
+	 padding-left:80px; 
+	  
+	  
+	  
+	  	  
+ }
+ #header{	  
+	  background:black;
+	  padding:5px  10px;
+	  font-weight: bold;
+	  font-size: 10px;
+	  padding-top: 15px;
+	  padding-bottom: 10px;
+	  color:white;
+ }
+ #nav-id  ul li a:hover{
+	background:#daae19;
+	display:block;
+}
+
+
+/*-------------------------------------*/
+
+
+#us h1{
+	font-weight:bold; 
+	font-size:40px;
+	text-align: Center;
+}
+#us p{
+	font-weight:bold; 
+	font-size:20px;
+	text-align: Center;
+	padding-bottom:25px;
+}
+<!----------------------------other way to connect------------------------------------------>
+.main-container {
+            display: flex;
+            background-color: white;
+            color: orange;
+			justify-content: space-between;
+        }
+
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list img {
+    width: 20px; /* Adjust the width of the Whatsapp icon as needed */
+    height: 20px; /* Adjust the height of the Whatsapp icon as needed */
+    margin-right: 5px;
+    vertical-align: left; /* Align the icon vertically */
+}
+
+.col-md-3 {
+    flex: 1; /* Equal columns */
+    padding-left: 20px; /* Adjust the padding as needed */
+    padding-right: 20px; /* Adjust the padding as needed */
+}
+
+.col-md-3 h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: teal;
+    text-align: center; /* Adjust the padding as needed */
+	margin-bottom: 20px;
+	
+}
+.vertical-line {
+    width: 3px;
+    height: 130px;
+    background-color:#daae19;
+    font-weight: non;
+    margin-left: 0px; /* Adjust the margin as needed */
+	margin-right:40px;
+	
+}
+
+ #vertical-line div {
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 0px;
+            padding-bottom: 10px;
+        }
+		
+		#vertical-line div h3 ul{
+			text-align:left;
+		}
